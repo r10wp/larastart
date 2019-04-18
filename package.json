@@ -10,8 +10,10 @@
     "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
   },
   "devDependencies": {
-    "axios": "^0.18",
+    "axios": "^0.18.0",
     "bootstrap": "^4.0.0",
+    "browser-sync": "^2.26.3",
+    "browser-sync-webpack-plugin": "^2.0.1",
     "cross-env": "^5.1",
     "jquery": "^3.2",
     "laravel-mix": "^4.0.7",
@@ -31,7 +33,12 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.8.1",
-    "admin-lte": "^3.0.0-alpha.2"
+    "admin-lte": "^3.0.0-alpha.2",
+    "moment": "^2.24.0",
+    "sweetalert2": "^8.8.5",
+    "vform": "^1.0.0",
+    "vue-progressbar": "^0.7.5",
+    "vue-router": "^3.0.5"
   },
   "author": "",
   "license": "ISC",
